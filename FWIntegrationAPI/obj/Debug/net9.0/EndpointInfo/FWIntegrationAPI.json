@@ -1,0 +1,240 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FWIntegrationAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/GetAuthToken": {
+      "post": {
+        "tags": [
+          "NLS"
+        ],
+        "summary": "Generate an authentication token",
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthTokenRequestModel"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthTokenRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthTokenRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthTokenRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthTokenResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthTokenResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthTokenResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/GetVesselCalls": {
+      "get": {
+        "tags": [
+          "NLS"
+        ],
+        "summary": "Get vessel calls information from external API",
+        "parameters": [
+          {
+            "name": "vesselImo",
+            "in": "query",
+            "description": "The IMO number of the vessel e.g. 9515802,9410026,8210699,5355632",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselName",
+            "in": "query",
+            "description": "Current name of the vessel. Additional functionality available, see 'Standard Functionality'. e.g. Queen Mary 2",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselMmsi",
+            "in": "query",
+            "description": "MMSI number currently used by the vessel. e.g. 310627000",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "classb",
+            "in": "query",
+            "description": "If supplied as ‘true’, known class B vessels will be included in the API response.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "dateRange",
+            "in": "query",
+            "description": "If no dateRange supplied the API will return the previous 7 days history. Maximum dateRange allowed is 6 months. e.g. 2020-12-01 – 2020-12-31",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "includeBerths",
+            "in": "query",
+            "description": "If supplied as ‘true’ will include details of berth callings within the port (requires additional subscription).",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GetAdvancedComplianceRisk": {
+      "get": {
+        "tags": [
+          "NLS"
+        ],
+        "summary": "Advanced Compliance risk ratings for one or more vessels, including risks flagged and their details across AIS Gaps, Loitering, AIS Manipulation, Flag, Ownership, Ship to Ship Transfer and movements (available by supplying either VesselId, VesselImo, VesselName, vesselMmsi)",
+        "parameters": [
+          {
+            "name": "vesselImo",
+            "in": "query",
+            "description": "The IMO number of the vessel e.g. 9515802,9410026,8210699,5355632",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselName",
+            "in": "query",
+            "description": "Current name of the vessel. Additional functionality available, see 'Standard Functionality'. e.g. Queen Mary 2",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselMmsi",
+            "in": "query",
+            "description": "MMSI number currently used by the vessel. e.g. 310627000",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "riskType",
+            "in": "query",
+            "description": "Type of individual compliance risk that API endpoint output should fetch. For allowed values see below. Default All. e.g. flag,sts",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselComplianceRiskScore",
+            "in": "query",
+            "description": "Filter results by overall vessel compliance risk score. For allowed values see below. e.g. High,Medium",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vesselAisGapRating",
+            "in": "query",
+            "description": "Filter results by AIS gap risk rating. For allowed values see below. e.g. High",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AuthTokenRequestModel": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AuthTokenResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "token": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "NLS"
+    }
+  ]
+}

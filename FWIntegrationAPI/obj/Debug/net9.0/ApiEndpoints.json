@@ -1,0 +1,120 @@
+[
+  {
+    "ContainingType": "FWIntegrationAPI.Controllers.NLSController",
+    "Method": "GetAdvancedComplianceRisk",
+    "RelativePath": "api/GetAdvancedComplianceRisk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vesselImo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselMmsi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "riskType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselComplianceRiskScore",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselAisGapRating",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FWIntegrationAPI.Controllers.NLSController",
+    "Method": "GetAuthToken",
+    "RelativePath": "api/GetAuthToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Authrequest",
+        "Type": "FWIntegrationAPI.Model.AuthTokenRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FWIntegrationAPI.Model.AuthTokenResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FWIntegrationAPI.Controllers.NLSController",
+    "Method": "GetVesselCalls",
+    "RelativePath": "api/GetVesselCalls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vesselImo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vesselMmsi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "classb",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "includeBerths",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

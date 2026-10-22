@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FWIntegrationAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FWIntegrationAPI.Controllers.NLSController.GetAuthToken(FWIntegrationAPI.Model.AuthTokenRequestModel)">
+            <summary>
+            Generate an authentication token
+            </summary>
+        </member>
+        <member name="M:FWIntegrationAPI.Controllers.NLSController.GetVesselCalls(System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean})">
+            <summary>
+            Get vessel calls information from external API
+            </summary>
+            <param name="vesselImo">The IMO number of the vessel e.g. 9515802,9410026,8210699,5355632</param>
+            <param name="vesselName">Current name of the vessel. Additional functionality available, see 'Standard Functionality'. e.g. Queen Mary 2</param>
+            <param name="vesselMmsi">MMSI number currently used by the vessel. e.g. 310627000</param>
+            <param name="classb">If supplied as ‘true’, known class B vessels will be included in the API response.</param>
+            <param name="dateRange">If no dateRange supplied the API will return the previous 7 days history. Maximum dateRange allowed is 6 months. e.g. 2020-12-01 – 2020-12-31</param>
+            <param name="includeBerths">If supplied as ‘true’ will include details of berth callings within the port (requires additional subscription).</param>
+            <returns>Vessel call details in JSON format</returns>
+        </member>
+        <member name="M:FWIntegrationAPI.Controllers.NLSController.GetAdvancedComplianceRisk(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Advanced Compliance risk ratings for one or more vessels, including risks flagged and their details across AIS Gaps, Loitering, AIS Manipulation, Flag, Ownership, Ship to Ship Transfer and movements (available by supplying either VesselId, VesselImo, VesselName, vesselMmsi)
+            </summary>
+            <param name="vesselImo">The IMO number of the vessel e.g. 9515802,9410026,8210699,5355632</param>
+            <param name="vesselName">Current name of the vessel. Additional functionality available, see 'Standard Functionality'. e.g. Queen Mary 2</param>
+            <param name="vesselMmsi">MMSI number currently used by the vessel. e.g. 310627000</param>
+            <param name="riskType">Type of individual compliance risk that API endpoint output should fetch. For allowed values see below. Default All. e.g. flag,sts</param>
+            <param name="vesselComplianceRiskScore">Filter results by overall vessel compliance risk score. For allowed values see below. e.g. High,Medium</param>
+            <param name="vesselAisGapRating">Filter results by AIS gap risk rating. For allowed values see below. e.g. High</param>
+            <returns>Vessel call details in JSON format</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1172 @@
+{
+  "IsSuccess": true,
+  "Data": {
+    "TotalVesselRecords": 1,
+    "TotalCallingRecords": 46,
+    "RecordsRetrievedCurrentPage": 46,
+    "ScrollId": null,
+    "Vessels": [
+      {
+        "vessel": {
+          "vesselId": "283551",
+          "vesselImo": "7908782",
+          "vesselMmsi": "477958500",
+          "vesselName": "LADY RIMA"
+        },
+        "calls": [
+          {
+            "callingId": "681efd7a-f39f-44b3-8c80-93d6defcb85e",
+            "arrivalDate": "2026-02-28T07:04:32",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-12T09:24:12",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-12T09:57:11",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "ca2d69ce-ea87-4c68-81af-694eef678864",
+            "arrivalDate": "2026-03-12T11:51:31",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-12T14:18:02",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-12T14:52:42",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "edb358f6-4139-4dbe-920b-66fa52cb3aac",
+            "arrivalDate": "2026-03-12T14:58:11",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-14T00:21:31",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-16T06:05:44",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "0e19bdca-eaa2-4de4-a6bd-4d1fe73cc499",
+            "arrivalDate": "2026-03-18T13:09:37",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-18T14:41:10",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-18T15:17:51",
+            "place": {
+              "placeName": "Luanda Anchorage",
+              "placeId": "110030",
+              "placeType": "Anchorage",
+              "parentPortName": "Luanda",
+              "parentPortId": "15718",
+              "unlocode": null,
+              "latitude": -8.710069,
+              "longitude": 13.295629,
+              "countryCode": "AGO",
+              "countryIso": "AGO",
+              "countryName": "Angola",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "1b8d50c9-5d93-46fc-b419-6c70a3620359",
+            "arrivalDate": "2026-03-18T21:20:07",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-19T23:43:22",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-22T06:06:36",
+            "place": {
+              "placeName": "Luanda",
+              "placeId": "15718",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "AOLAD",
+              "latitude": -8.796931,
+              "longitude": 13.256785,
+              "countryCode": "AGO",
+              "countryIso": "AGO",
+              "countryName": "Angola",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "97e464a3-5bd9-4510-aea9-e5107b4e9444",
+            "arrivalDate": "2026-03-23T07:30:35",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-23T09:18:37",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-23T09:57:25",
+            "place": {
+              "placeName": "Walvis Bay Anchorage",
+              "placeId": "110259",
+              "placeType": "Anchorage",
+              "parentPortName": "Walvis Bay",
+              "parentPortId": "15490",
+              "unlocode": null,
+              "latitude": -22.863495,
+              "longitude": 14.49082,
+              "countryCode": "NAM",
+              "countryIso": "NAM",
+              "countryName": "Republic of Namibia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "8920e0af-a9eb-4166-b378-3e2b6cdf6025",
+            "arrivalDate": "2026-03-26T05:58:20",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-26T07:46:01",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-26T08:22:42",
+            "place": {
+              "placeName": "Walvis Bay Anchorage",
+              "placeId": "110259",
+              "placeType": "Anchorage",
+              "parentPortName": "Walvis Bay",
+              "parentPortId": "15490",
+              "unlocode": null,
+              "latitude": -22.863495,
+              "longitude": 14.49082,
+              "countryCode": "NAM",
+              "countryIso": "NAM",
+              "countryName": "Republic of Namibia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "b4e31ee0-ed73-49d9-ba78-60dc11a447b3",
+            "arrivalDate": "2026-03-26T12:01:51",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-03-27T02:24:44",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-03-29T06:05:22",
+            "place": {
+              "placeName": "Walvis Bay",
+              "placeId": "15490",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "NAWVB",
+              "latitude": -22.971335,
+              "longitude": 14.468363,
+              "countryCode": "NAM",
+              "countryIso": "NAM",
+              "countryName": "Republic of Namibia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "5d1143e8-6716-4cbb-807f-048a29f788e1",
+            "arrivalDate": "2026-04-03T08:27:13",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-05T12:49:54",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-05T13:07:42",
+            "place": {
+              "placeName": "Cotonou Anchorage",
+              "placeId": "110256",
+              "placeType": "Anchorage",
+              "parentPortName": "Cotonou",
+              "parentPortId": "11912",
+              "unlocode": null,
+              "latitude": 6.264615,
+              "longitude": 2.581474,
+              "countryCode": "BEN",
+              "countryIso": "BEN",
+              "countryName": "Republic of Benin",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Gulf of Guinea - JWLA-024",
+                  "startDate": "2020-09-21T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Benin - JWLA-019",
+                  "startDate": "2011-12-08T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Nigeria - JWLA-019",
+                  "startDate": "2011-12-08T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "0cb35db3-e7b9-4f8c-8646-25aec9d528e3",
+            "arrivalDate": "2026-04-05T13:02:40",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-06T08:50:14",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-08T06:07:33",
+            "place": {
+              "placeName": "Cotonou",
+              "placeId": "11912",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "BJCOO",
+              "latitude": 6.34642,
+              "longitude": 2.422993,
+              "countryCode": "BEN",
+              "countryIso": "BEN",
+              "countryName": "Republic of Benin",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Benin - JWLA-019",
+                  "startDate": "2011-12-08T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "c3a2efe6-1762-4c05-ab28-a6469ab9338d",
+            "arrivalDate": "2026-04-06T16:38:26",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-07T04:19:41",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-07T04:52:27",
+            "place": {
+              "placeName": "Lome Anchorage",
+              "placeId": "110255",
+              "placeType": "Anchorage",
+              "parentPortName": "Lome",
+              "parentPortId": "12266",
+              "unlocode": null,
+              "latitude": 5.967235,
+              "longitude": 1.380774,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Gulf of Guinea - JWLA-024",
+                  "startDate": "2020-09-21T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "e6ded26f-f8e2-4c65-b909-7da790584fe8",
+            "arrivalDate": "2026-04-09T06:20:29",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-17T07:24:54",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-17T07:57:43",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "d933e9d1-1033-43da-8658-6926bd9bc5f5",
+            "arrivalDate": "2026-04-17T08:05:04",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-19T00:17:21",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-21T06:07:15",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "30786942-80e7-4400-94b5-611eb4f2d9e0",
+            "arrivalDate": "2026-04-23T13:32:43",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-23T16:46:02",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-23T16:52:14",
+            "place": {
+              "placeName": "Luanda Anchorage",
+              "placeId": "110030",
+              "placeType": "Anchorage",
+              "parentPortName": "Luanda",
+              "parentPortId": "15718",
+              "unlocode": null,
+              "latitude": -8.710069,
+              "longitude": 13.295629,
+              "countryCode": "AGO",
+              "countryIso": "AGO",
+              "countryName": "Angola",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "4baeed6e-4b0c-4a3e-9e4a-447bdbadab03",
+            "arrivalDate": "2026-04-23T16:47:22",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-25T17:17:11",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-04-27T06:06:07",
+            "place": {
+              "placeName": "Luanda",
+              "placeId": "15718",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "AOLAD",
+              "latitude": -8.796931,
+              "longitude": 13.256785,
+              "countryCode": "AGO",
+              "countryIso": "AGO",
+              "countryName": "Angola",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "9898e56e-e09b-45bc-9ead-4502789c3bd3",
+            "arrivalDate": "2026-04-29T16:01:31",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-04-30T09:42:55",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-02T06:07:23",
+            "place": {
+              "placeName": "Walvis Bay",
+              "placeId": "15490",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "NAWVB",
+              "latitude": -22.971335,
+              "longitude": 14.468363,
+              "countryCode": "NAM",
+              "countryIso": "NAM",
+              "countryName": "Republic of Namibia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "0c73cee1-66c8-45ed-8d23-a618f0481b71",
+            "arrivalDate": "2026-05-08T05:58:07",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-11T08:36:42",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-11T08:57:16",
+            "place": {
+              "placeName": "Lome Anchorage",
+              "placeId": "110255",
+              "placeType": "Anchorage",
+              "parentPortName": "Lome",
+              "parentPortId": "12266",
+              "unlocode": null,
+              "latitude": 5.967235,
+              "longitude": 1.380774,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Gulf of Guinea - JWLA-024",
+                  "startDate": "2020-09-21T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "52f2e66f-11eb-4f16-9fdf-7040ac068170",
+            "arrivalDate": "2026-05-11T08:56:31",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-12T04:47:59",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-14T06:05:10",
+            "place": {
+              "placeName": "Lome",
+              "placeId": "12266",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "TGLFW",
+              "latitude": 6.148123,
+              "longitude": 1.287346,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "f48b4dbd-028c-4824-b019-0522ea26bff3",
+            "arrivalDate": "2026-05-14T06:03:48",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-19T20:32:17",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-19T21:07:03",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "7aab7245-8f2e-4028-908f-3d806779f215",
+            "arrivalDate": "2026-05-19T21:07:21",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-20T18:33:07",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-23T06:06:55",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "f281c867-66d9-4fbb-9e3d-d636444f15b5",
+            "arrivalDate": "2026-05-20T22:49:06",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-21T19:05:06",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-21T19:37:20",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "2b363883-4b39-4bcb-8639-a1980f6d0ad1",
+            "arrivalDate": "2026-05-23T00:25:44",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-28T08:42:12",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-28T08:57:04",
+            "place": {
+              "placeName": "Tema Anchorage",
+              "placeId": "110254",
+              "placeType": "Anchorage",
+              "parentPortName": "Tema",
+              "parentPortId": "12200",
+              "unlocode": null,
+              "latitude": 5.585967,
+              "longitude": 0.068035,
+              "countryCode": "GHA",
+              "countryIso": "GHA",
+              "countryName": "Ghana",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "c51d0aa1-00d5-42ae-8aa5-4ee2af864bce",
+            "arrivalDate": "2026-05-28T08:57:41",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-29T13:34:06",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-31T06:06:09",
+            "place": {
+              "placeName": "Tema",
+              "placeId": "12200",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "GHTEM",
+              "latitude": 5.648965,
+              "longitude": 0.030582,
+              "countryCode": "GHA",
+              "countryIso": "GHA",
+              "countryName": "Ghana",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "5cff78ff-c663-4226-bfb7-0501ef9ee7a0",
+            "arrivalDate": "2026-05-30T02:23:51",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-05-31T16:44:48",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-05-31T17:06:41",
+            "place": {
+              "placeName": "Lome Anchorage",
+              "placeId": "110255",
+              "placeType": "Anchorage",
+              "parentPortName": "Lome",
+              "parentPortId": "12266",
+              "unlocode": null,
+              "latitude": 5.967235,
+              "longitude": 1.380774,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Gulf of Guinea - JWLA-024",
+                  "startDate": "2020-09-21T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "ecb849a6-80e7-4c61-aecd-bd446e560b79",
+            "arrivalDate": "2026-05-31T17:07:20",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-01T14:40:20",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-03T06:14:30",
+            "place": {
+              "placeName": "Lome",
+              "placeId": "12266",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "TGLFW",
+              "latitude": 6.148123,
+              "longitude": 1.287346,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "8d6bdbab-f701-4c0e-b607-84d5c25cb211",
+            "arrivalDate": "2026-06-03T18:39:47",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-04T08:41:36",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-04T09:16:32",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "12163d0e-829d-4c35-b665-3248f6300648",
+            "arrivalDate": "2026-06-04T09:45:38",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-06T15:00:57",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-08T06:06:49",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "2a636f90-a208-4746-a2ab-4c16b8474545",
+            "arrivalDate": "2026-06-10T15:50:39",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-10T21:45:36",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-10T22:11:21",
+            "place": {
+              "placeName": "Pointe Noire Anchorage",
+              "placeId": "110258",
+              "placeType": "Anchorage",
+              "parentPortName": "Pointe Noire",
+              "parentPortId": "12491",
+              "unlocode": null,
+              "latitude": -4.748465,
+              "longitude": 11.775581,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "f2b3b76d-3557-4789-87dd-c83b8717b14c",
+            "arrivalDate": "2026-06-10T22:04:36",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-11T13:44:27",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-13T06:06:26",
+            "place": {
+              "placeName": "Pointe Noire",
+              "placeId": "12491",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CGPNR",
+              "latitude": -4.772277,
+              "longitude": 11.841875,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "0519645d-7a65-4705-ab4c-767dd3c888b4",
+            "arrivalDate": "2026-06-11T14:16:47",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-13T18:24:57",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-13T18:51:16",
+            "place": {
+              "placeName": "Pointe Noire Anchorage",
+              "placeId": "110258",
+              "placeType": "Anchorage",
+              "parentPortName": "Pointe Noire",
+              "parentPortId": "12491",
+              "unlocode": null,
+              "latitude": -4.748465,
+              "longitude": 11.775581,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "3eca9276-6cc8-4ce0-9c45-054bb379820d",
+            "arrivalDate": "2026-06-13T18:45:07",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-14T23:32:05",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-18T06:11:45",
+            "place": {
+              "placeName": "Pointe Noire",
+              "placeId": "12491",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CGPNR",
+              "latitude": -4.772277,
+              "longitude": 11.841875,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "f0573975-ecea-4987-9ce0-5406c0a9205d",
+            "arrivalDate": "2026-06-18T16:13:34",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-20T10:37:41",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-20T11:11:32",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "441ac206-e35e-4dc1-aadb-d8103ace2284",
+            "arrivalDate": "2026-06-20T11:24:00",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-22T00:36:55",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-24T06:06:15",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "30ec4186-6928-475e-9a5a-2d0d8bd1eef7",
+            "arrivalDate": "2026-06-25T23:05:34",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-26T12:49:29",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-26T13:11:17",
+            "place": {
+              "placeName": "Pointe Noire Anchorage",
+              "placeId": "110258",
+              "placeType": "Anchorage",
+              "parentPortName": "Pointe Noire",
+              "parentPortId": "12491",
+              "unlocode": null,
+              "latitude": -4.748465,
+              "longitude": 11.775581,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "c1e75372-86cf-44c2-84d5-812ed747fb6e",
+            "arrivalDate": "2026-06-26T13:05:08",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-06-27T23:29:30",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-06-30T06:04:58",
+            "place": {
+              "placeName": "Pointe Noire",
+              "placeId": "12491",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CGPNR",
+              "latitude": -4.772277,
+              "longitude": 11.841875,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "caca83c2-3c7b-4e44-88de-76fe71d22d75",
+            "arrivalDate": "2026-07-01T21:36:29",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-07-15T01:03:04",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-07-15T01:36:15",
+            "place": {
+              "placeName": "Abidjan Anchorage",
+              "placeId": "110253",
+              "placeType": "Anchorage",
+              "parentPortName": "Abidjan",
+              "parentPortId": "12992",
+              "unlocode": null,
+              "latitude": 5.148594,
+              "longitude": -4.012299,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "ca4debc6-7666-4f40-8585-62276f7dae45",
+            "arrivalDate": "2026-07-15T01:40:46",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-07-16T12:25:12",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-07-18T06:04:45",
+            "place": {
+              "placeName": "Abidjan",
+              "placeId": "12992",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CIABJ",
+              "latitude": 5.287879,
+              "longitude": -3.999142,
+              "countryCode": "CIV",
+              "countryIso": "CIV",
+              "countryName": "Ivory Coast",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "6b17e405-4fe2-4007-ab98-0b4af35ba112",
+            "arrivalDate": "2026-07-20T10:32:12",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-07-22T03:23:31",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-07-22T03:46:30",
+            "place": {
+              "placeName": "Pointe Noire Anchorage",
+              "placeId": "110258",
+              "placeType": "Anchorage",
+              "parentPortName": "Pointe Noire",
+              "parentPortId": "12491",
+              "unlocode": null,
+              "latitude": -4.748465,
+              "longitude": 11.775581,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "2f9ace4a-0a75-4a19-81f5-b3166f2ed730",
+            "arrivalDate": "2026-07-22T03:39:42",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-07-24T14:42:24",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-07-26T06:06:38",
+            "place": {
+              "placeName": "Pointe Noire",
+              "placeId": "12491",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CGPNR",
+              "latitude": -4.772277,
+              "longitude": 11.841875,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "bd5190e3-857f-47d9-9eb5-de8166516032",
+            "arrivalDate": "2026-07-27T23:16:57",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-07-30T00:48:57",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-07-30T01:21:29",
+            "place": {
+              "placeName": "Lome Anchorage",
+              "placeId": "110255",
+              "placeType": "Anchorage",
+              "parentPortName": "Lome",
+              "parentPortId": "12266",
+              "unlocode": null,
+              "latitude": 5.967235,
+              "longitude": 1.380774,
+              "countryCode": "TGO",
+              "countryIso": "TGO",
+              "countryName": "Togo",
+              "portNotes": [
+                {
+                  "type": "JWC",
+                  "category": "JWC Gulf of Guinea - JWLA-024",
+                  "startDate": "2020-09-21T00:00:00",
+                  "endDate": null
+                },
+                {
+                  "type": "JWC",
+                  "category": "JWC Togo - JWLA-021",
+                  "startDate": "2013-06-12T00:00:00",
+                  "endDate": null
+                }
+              ]
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "1864daa0-82ed-4661-94f4-779fd0e989a6",
+            "arrivalDate": "2026-08-02T22:06:14",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-03T02:51:16",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-03T03:26:28",
+            "place": {
+              "placeName": "Monrovia Anchorage",
+              "placeId": "111744",
+              "placeType": "Anchorage",
+              "parentPortName": "Monrovia",
+              "parentPortId": "15608",
+              "unlocode": null,
+              "latitude": 6.360548,
+              "longitude": -10.87052,
+              "countryCode": "LBR",
+              "countryIso": "LBR",
+              "countryName": "Liberia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "a0838f3c-f495-40e2-876b-dc7783316111",
+            "arrivalDate": "2026-08-04T13:42:34",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-04T16:00:36",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-04T16:36:59",
+            "place": {
+              "placeName": "Monrovia Anchorage",
+              "placeId": "111744",
+              "placeType": "Anchorage",
+              "parentPortName": "Monrovia",
+              "parentPortId": "15608",
+              "unlocode": null,
+              "latitude": 6.360548,
+              "longitude": -10.87052,
+              "countryCode": "LBR",
+              "countryIso": "LBR",
+              "countryName": "Liberia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "93155571-74f2-4d6b-96be-b74f606ac28e",
+            "arrivalDate": "2026-08-04T21:21:37",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-05T08:48:45",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-05T09:26:45",
+            "place": {
+              "placeName": "Monrovia Anchorage",
+              "placeId": "111744",
+              "placeType": "Anchorage",
+              "parentPortName": "Monrovia",
+              "parentPortId": "15608",
+              "unlocode": null,
+              "latitude": 6.360548,
+              "longitude": -10.87052,
+              "countryCode": "LBR",
+              "countryIso": "LBR",
+              "countryName": "Liberia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "36c9a98c-22b4-4f3a-876d-cc0dc8e230d0",
+            "arrivalDate": "2026-08-06T16:53:23",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-08T07:08:40",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-10T06:06:47",
+            "place": {
+              "placeName": "Monrovia",
+              "placeId": "15608",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "LRMLW",
+              "latitude": 6.346225,
+              "longitude": -10.803788,
+              "countryCode": "LBR",
+              "countryIso": "LBR",
+              "countryName": "Liberia",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "222bd28a-eb97-4059-af60-4de18c671497",
+            "arrivalDate": "2026-08-13T07:18:25",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-19T03:48:23",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-19T04:06:10",
+            "place": {
+              "placeName": "Pointe Noire Anchorage",
+              "placeId": "110258",
+              "placeType": "Anchorage",
+              "parentPortName": "Pointe Noire",
+              "parentPortId": "12491",
+              "unlocode": null,
+              "latitude": -4.748465,
+              "longitude": 11.775581,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          },
+          {
+            "callingId": "2815dd1b-53c4-4c98-b406-ac2161768cb1",
+            "arrivalDate": "2026-08-19T04:10:42",
+            "arrivalQualifier": null,
+            "sailingDate": "2026-08-21T02:06:30",
+            "sailingQualifier": null,
+            "lastUpdated": "2026-08-23T06:05:24",
+            "place": {
+              "placeName": "Pointe Noire",
+              "placeId": "12491",
+              "placeType": "Port",
+              "parentPortName": null,
+              "parentPortId": null,
+              "unlocode": "CGPNR",
+              "latitude": -4.772277,
+              "longitude": 11.841875,
+              "countryCode": "COG",
+              "countryIso": "COG",
+              "countryName": "The Congo",
+              "portNotes": []
+            },
+            "berthCallings": []
+          }
+        ]
+      }
+    ]
+  },
+  "Errors": []
+}

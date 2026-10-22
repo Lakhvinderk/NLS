@@ -1,0 +1,2126 @@
+{
+  "IsSuccess": true,
+  "Data": {
+    "TotalRecords": 1,
+    "ScrollId": null,
+    "Items": [
+      {
+        "VesselId": "12777334",
+        "VesselImo": "9239783",
+        "VesselName": "COSTA FORTUNA",
+        "Mmsi": "461000329",
+        "VesselComplianceRiskScore": "Medium",
+        "ComplianceRisks": [
+          {
+            "ComplianceRiskType": {
+              "Id": 1,
+              "Description": "VesselAisGap"
+            },
+            "ComplianceRiskScore": "High",
+            "RiskIndicators": [],
+            "Details": [
+              {
+                "GapStart": "2025-04-14T23:02:31+00:00",
+                "GapEnd": "2025-04-16T17:13:25+00:00",
+                "EezAreaName": "Russian Exclusive economic Zone",
+                "DurationInHours": 42.181666666666665,
+                "ComplianceRiskType": {
+                  "Id": 1,
+                  "Description": "VesselAisGap"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskReason": "This vessel had medium risk AIS Gaps during last 2 years.",
+                "GapRiskIndicators": [
+                  "Probable dark port calling based on compatible high risk ports",
+                  "AIS Gap started in a high risk area"
+                ],
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "GapStart": "2024-08-23T06:58:54+00:00",
+                "GapEnd": "2024-08-25T03:45:34+00:00",
+                "EezAreaName": "",
+                "DurationInHours": 44.77777777777778,
+                "ComplianceRiskType": {
+                  "Id": 1,
+                  "Description": "VesselAisGap"
+                },
+                "ComplianceRiskScore": "High",
+                "GapRiskIndicators": [
+                  "Probable dark port calling based on compatible high risk ports",
+                  "Draught change after the AIS Gap"
+                ],
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 2,
+              "Description": "VesselAisManipulation"
+            },
+            "ComplianceRiskScore": "Low",
+            "RiskIndicators": [],
+            "Details": []
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 3,
+              "Description": "VesselMovement"
+            },
+            "ComplianceRiskScore": "High",
+            "RiskIndicators": [
+              {
+                "Id": 303,
+                "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+              }
+            ],
+            "Details": [
+              {
+                "ArrivalDate": "2026-08-07T07:22:38+00:00",
+                "SailingDate": "2026-08-08T02:48:03+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-08-03T11:17:09+00:00",
+                "SailingDate": "2026-08-04T02:16:26+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-07-30T11:31:39+00:00",
+                "SailingDate": "2026-07-30T13:35:02+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-07-27T21:12:59+00:00",
+                "SailingDate": "2026-07-28T11:02:49+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-06-15T00:12:29+00:00",
+                "SailingDate": "2026-06-16T05:31:09+00:00",
+                "Place": {
+                  "name": "Nakhodka Anchorage",
+                  "placeId": "111226",
+                  "unlocode": "",
+                  "latitude": 42.7789782151838,
+                  "longitude": 132.933245578173,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-06-12T00:44:31+00:00",
+                "SailingDate": "2026-06-12T13:26:52+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-06-06T20:02:48+00:00",
+                "SailingDate": "2026-06-07T22:19:03+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-05-11T01:58:17+00:00",
+                "SailingDate": "2026-05-11T05:28:36+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-05-09T22:40:03+00:00",
+                "SailingDate": "2026-05-10T20:52:06+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-04-16T03:11:10+00:00",
+                "SailingDate": "2026-04-16T21:17:52+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-04-08T02:50:18+00:00",
+                "SailingDate": "2026-04-09T14:10:32+00:00",
+                "Place": {
+                  "name": "Nakhodka Anchorage",
+                  "placeId": "111226",
+                  "unlocode": "",
+                  "latitude": 42.7789782151838,
+                  "longitude": 132.933245578173,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-03-13T19:21:18+00:00",
+                "SailingDate": "2026-03-14T16:21:05+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-01-30T22:37:09+00:00",
+                "SailingDate": "2026-01-31T21:43:34+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2026-01-01T01:47:35+00:00",
+                "SailingDate": "2026-01-01T07:02:26+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-12-30T22:37:05+00:00",
+                "SailingDate": "2025-12-31T22:33:54+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-12-28T00:38:02+00:00",
+                "SailingDate": "2025-12-28T12:17:17+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-11-12T03:37:04+00:00",
+                "SailingDate": "2025-11-13T01:07:08+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-30T01:45:01+00:00",
+                "SailingDate": "2025-10-30T12:27:23+00:00",
+                "Place": {
+                  "name": "Kozmino Port Anchorage",
+                  "placeId": "111228",
+                  "unlocode": "",
+                  "latitude": 42.7383181483658,
+                  "longitude": 132.971592096702,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-29T09:42:22+00:00",
+                "SailingDate": "2025-10-29T11:02:46+00:00",
+                "Place": {
+                  "name": "Kozmino Port Anchorage",
+                  "placeId": "111228",
+                  "unlocode": "",
+                  "latitude": 42.7383181483658,
+                  "longitude": 132.971592096702,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-28T08:53:04+00:00",
+                "SailingDate": "2025-10-28T12:41:08+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-28T05:47:26+00:00",
+                "SailingDate": "2025-10-28T07:47:26+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-27T17:29:56+00:00",
+                "SailingDate": "2025-10-28T04:57:16+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-26T21:23:10+00:00",
+                "SailingDate": "2025-10-27T09:30:39+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-25T01:03:45+00:00",
+                "SailingDate": "2025-10-25T03:30:58+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-24T13:32:29+00:00",
+                "SailingDate": "2025-10-25T00:05:35+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-23T23:58:36+00:00",
+                "SailingDate": "2025-10-24T08:25:45+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-10-22T20:53:01+00:00",
+                "SailingDate": "2025-10-23T07:10:00+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-09-26T00:35:08+00:00",
+                "SailingDate": "2025-09-26T22:31:18+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-06-08T22:50:11+00:00",
+                "SailingDate": "2025-06-09T22:00:03+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-05-24T05:52:19+00:00",
+                "SailingDate": "2025-05-27T04:04:30+00:00",
+                "Place": {
+                  "name": "Nakhodka Anchorage",
+                  "placeId": "111226",
+                  "unlocode": "",
+                  "latitude": 42.7789782151838,
+                  "longitude": 132.933245578173,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-04-21T22:53:53+00:00",
+                "SailingDate": "2025-04-24T20:45:07+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-04-14T12:26:30+00:00",
+                "SailingDate": "2025-04-16T17:55:36+00:00",
+                "Place": {
+                  "name": "Vostochnyy Port Anchorage",
+                  "placeId": "111560",
+                  "unlocode": "",
+                  "latitude": 42.7700551658599,
+                  "longitude": 132.993611855793,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-04-03T00:20:04+00:00",
+                "SailingDate": "2025-04-11T11:45:03+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-02-06T11:55:09+00:00",
+                "SailingDate": "2025-02-07T09:25:03+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-01-31T00:30:50+00:00",
+                "SailingDate": "2025-02-02T18:41:20+00:00",
+                "Place": {
+                  "name": "Nakhodka Anchorage",
+                  "placeId": "111226",
+                  "unlocode": "",
+                  "latitude": 42.7789782151838,
+                  "longitude": 132.933245578173,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-01-23T04:05:10+00:00",
+                "SailingDate": "2025-01-23T06:30:11+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2025-01-14T01:25:02+00:00",
+                "SailingDate": "2025-01-14T05:30:45+00:00",
+                "Place": {
+                  "name": "Prigorodnoye",
+                  "placeId": "110002",
+                  "unlocode": "RUPGN",
+                  "latitude": 46.5854130073842,
+                  "longitude": 142.914103630797,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2024-10-17T04:55:05+00:00",
+                "SailingDate": "2024-10-18T05:20:24+00:00",
+                "Place": {
+                  "name": "Kozmino Port",
+                  "placeId": "110020",
+                  "unlocode": "RUKZM",
+                  "latitude": 42.7148240655809,
+                  "longitude": 133.025487164247,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "ArrivalDate": "2024-09-30T18:10:32+00:00",
+                "SailingDate": "2024-10-01T18:30:39+00:00",
+                "Place": {
+                  "name": "Kozmino Port",
+                  "placeId": "110020",
+                  "unlocode": "RUKZM",
+                  "latitude": 42.7148240655809,
+                  "longitude": 133.025487164247,
+                  "countryCode": "RUS",
+                  "countryIso": "RUS",
+                  "countryName": "Russia",
+                  "portNotes": [
+                    {
+                      "type": "JWC",
+                      "category": "JWC Russia - JWLA-030"
+                    }
+                  ]
+                },
+                "ComplianceRiskType": {
+                  "Id": 3,
+                  "Description": "VesselMovement"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 303,
+                    "Description": "Port call is deemed high risk due to being located in a country currently restricted by economic sanction"
+                  }
+                ],
+                "RiskReason": "This vessel had a call in a place that was restricted by sanctions at that time and that took place in the last 2 years.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 4,
+              "Description": "VesselShipToShip"
+            },
+            "ComplianceRiskScore": "High",
+            "RiskIndicators": [
+              {
+                "Id": 409,
+                "Description": "Detected ship to ship transfer with vessel which is currently sanctioned"
+              }
+            ],
+            "Details": [
+              {
+                "StartDate": "2026-04-09T11:16:25+00:00",
+                "StartLatitude": 42.75225,
+                "StartLongitude": 132.927611666667,
+                "EndDate": "2026-04-09T14:10:32+00:00",
+                "EndLatitude": 42.7521416666667,
+                "EndLongitude": 132.927675,
+                "AreaName": null,
+                "VesselDetails": {
+                  "VesselId": "260675",
+                  "VesselImo": "9087714",
+                  "VesselName": "Ostrov Russkiy",
+                  "VesselMmsi": "273610060",
+                  "VesselType": "Combined chemical and oil tanker"
+                },
+                "StsType": "Bunkering Transfers",
+                "VesselOwnerSanctionedDetails": null,
+                "VesselSanctionedDetailsModel": {
+                  "VesselId": "260675",
+                  "SanctionInd": true,
+                  "Sanctions": [
+                    {
+                      "Source": "EU",
+                      "Program": "UKR",
+                      "FirstPublished": "2025-05-21T00:00:00",
+                      "LastPublished": "2026-07-24T00:00:00",
+                      "StartDate": "2025-05-21T00:00:00",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "HM Treasury",
+                      "Program": "The Russia (Sanctions) (EU Exit) Regulations 2019",
+                      "FirstPublished": "2025-07-21T00:00:00",
+                      "LastPublished": "2026-08-20T12:01:11",
+                      "StartDate": "2025-07-21T00:00:00",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "Canada",
+                      "Program": "Russia / Russie",
+                      "FirstPublished": "2025-06-17T18:01:10",
+                      "LastPublished": "2026-08-19T19:01:21",
+                      "StartDate": "2025-06-17T18:01:10",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "Switzerland",
+                      "Program": "Situation in Ukraine",
+                      "FirstPublished": "2025-06-03T09:01:33",
+                      "LastPublished": "2026-08-24T03:01:51",
+                      "StartDate": "2025-06-03T09:01:33",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    }
+                  ]
+                },
+                "RiskReason": "Detected ship to ship transfer with a vessel who was sanctioned at that time.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              },
+              {
+                "StartDate": "2025-05-25T22:01:27+00:00",
+                "StartLatitude": 42.797851,
+                "StartLongitude": 132.951187,
+                "EndDate": "2025-05-26T18:33:35+00:00",
+                "EndLatitude": 42.798366,
+                "EndLongitude": 132.953353,
+                "AreaName": null,
+                "VesselDetails": {
+                  "VesselId": "274411",
+                  "VesselImo": "9142916",
+                  "VesselName": "Okean",
+                  "VesselMmsi": "273378580",
+                  "VesselType": "product tanker"
+                },
+                "StsType": "Bunkering Transfers",
+                "VesselOwnerSanctionedDetails": null,
+                "VesselSanctionedDetailsModel": {
+                  "VesselId": "274411",
+                  "SanctionInd": true,
+                  "Sanctions": [
+                    {
+                      "Source": "EU",
+                      "Program": "UKR",
+                      "FirstPublished": "2025-05-21T00:00:00",
+                      "LastPublished": "2026-07-24T00:00:00",
+                      "StartDate": "2025-05-21T00:00:00",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "Canada",
+                      "Program": "Russia / Russie",
+                      "FirstPublished": "2026-02-24T15:01:28",
+                      "LastPublished": "2026-08-19T19:01:21",
+                      "StartDate": "2026-02-24T15:01:28",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "HM Treasury",
+                      "Program": "The Russia (Sanctions) (EU Exit) Regulations 2019",
+                      "FirstPublished": "2025-07-21T00:00:00",
+                      "LastPublished": "2026-08-20T12:01:11",
+                      "StartDate": "2025-07-21T00:00:00",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    },
+                    {
+                      "Source": "Switzerland",
+                      "Program": "Situation in Ukraine",
+                      "FirstPublished": "2025-06-03T09:01:33",
+                      "LastPublished": "2026-08-24T03:01:51",
+                      "StartDate": "2025-06-03T09:01:33",
+                      "StartQualifier": "",
+                      "EndDate": null,
+                      "EndDateQualifier": ""
+                    }
+                  ]
+                },
+                "RiskReason": "Detected ship to ship transfer with a vessel who was sanctioned at that time.",
+                "GnssInterference": {
+                  "gnssInterferenceInd": false,
+                  "gnssInterferenceReason": []
+                }
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 5,
+              "Description": "VesselOwnership"
+            },
+            "ComplianceRiskScore": "High",
+            "RiskIndicators": [
+              {
+                "Id": 503,
+                "Description": "Current beneficial owner, commercial operator, technical manager, or registered owner is indicated as sanctioned"
+              },
+              {
+                "Id": 505,
+                "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+              },
+              {
+                "Id": 506,
+                "Description": "Vessels ownership entity has a Head Office located within a country currently restricted by economic sanctions"
+              }
+            ],
+            "Details": [
+              {
+                "RelationshipType": "BO",
+                "CompanyId": "212646",
+                "CompanyName": "Unknown Owners",
+                "StartDate": "2025-09-23T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": null,
+                "HeadOfficeCountry": null,
+                "SanctionInd": null,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "RiskIndicators": []
+              },
+              {
+                "RelationshipType": "CO",
+                "CompanyId": "212646",
+                "CompanyName": "Unknown Owners",
+                "StartDate": "2025-09-23T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": null,
+                "HeadOfficeCountry": null,
+                "SanctionInd": null,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "RiskIndicators": []
+              },
+              {
+                "RelationshipType": "RO",
+                "CompanyId": "604452",
+                "CompanyName": "White Agate Marine SPC",
+                "StartDate": "2025-09-23T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Oman",
+                "HeadOfficeCountry": "OMN",
+                "SanctionInd": true,
+                "Sanctions": [
+                  {
+                    "Source": "EU",
+                    "Program": "UKR",
+                    "FirstPublished": "2026-07-24T16:33:00+00:00",
+                    "LastPublished": "2026-07-24T16:33:00+00:00",
+                    "StartDate": "2026-07-24T16:33:00+00:00",
+                    "StartQualifier": "",
+                    "EndDate": null,
+                    "EndDateQualifier": ""
+                  }
+                ],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 503,
+                    "Description": "Current beneficial owner, commercial operator, technical manager, or registered owner is indicated as sanctioned"
+                  },
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "The vessel current known ownership is sanctioned."
+              },
+              {
+                "RelationshipType": "IM",
+                "CompanyId": "623437",
+                "CompanyName": "Albatross Shipmanagement LLC-FZ",
+                "StartDate": "2025-03-27T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Dubai",
+                "HeadOfficeCountry": "ARE",
+                "SanctionInd": true,
+                "Sanctions": [
+                  {
+                    "Source": "EU",
+                    "Program": "UKR",
+                    "FirstPublished": "2026-06-15T13:07:00+00:00",
+                    "LastPublished": "2026-07-24T16:33:00+00:00",
+                    "StartDate": "2026-06-15T13:07:00+00:00",
+                    "StartQualifier": "",
+                    "EndDate": null,
+                    "EndDateQualifier": ""
+                  },
+                  {
+                    "Source": "Switzerland",
+                    "Program": "Situation in Ukraine",
+                    "FirstPublished": "2026-08-11T00:01:31+00:00",
+                    "LastPublished": "2026-08-24T03:01:51+00:00",
+                    "StartDate": "2026-08-11T00:01:31+00:00",
+                    "StartQualifier": "",
+                    "EndDate": null,
+                    "EndDateQualifier": ""
+                  }
+                ],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 503,
+                    "Description": "Current beneficial owner, commercial operator, technical manager, or registered owner is indicated as sanctioned"
+                  },
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "The vessel current known ownership is sanctioned."
+              },
+              {
+                "RelationshipType": "TM",
+                "CompanyId": "623437",
+                "CompanyName": "Albatross Shipmanagement LLC-FZ",
+                "StartDate": "2025-03-27T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Dubai",
+                "HeadOfficeCountry": "ARE",
+                "SanctionInd": true,
+                "Sanctions": [
+                  {
+                    "Source": "EU",
+                    "Program": "UKR",
+                    "FirstPublished": "2026-06-15T13:07:00+00:00",
+                    "LastPublished": "2026-07-24T16:33:00+00:00",
+                    "StartDate": "2026-06-15T13:07:00+00:00",
+                    "StartQualifier": "",
+                    "EndDate": null,
+                    "EndDateQualifier": ""
+                  },
+                  {
+                    "Source": "Switzerland",
+                    "Program": "Situation in Ukraine",
+                    "FirstPublished": "2026-08-11T00:01:31+00:00",
+                    "LastPublished": "2026-08-24T03:01:51+00:00",
+                    "StartDate": "2026-08-11T00:01:31+00:00",
+                    "StartQualifier": "",
+                    "EndDate": null,
+                    "EndDateQualifier": ""
+                  }
+                ],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 503,
+                    "Description": "Current beneficial owner, commercial operator, technical manager, or registered owner is indicated as sanctioned"
+                  },
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "The vessel current known ownership is sanctioned."
+              },
+              {
+                "RelationshipType": "TP",
+                "CompanyId": "94515",
+                "CompanyName": "Sakhalin Oil Shipping Company Limited",
+                "StartDate": "2024-01-01T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Kholmsk",
+                "HeadOfficeCountry": "RUS",
+                "SanctionInd": false,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskIndicators": [
+                  {
+                    "Id": 506,
+                    "Description": "Vessels ownership entity has a Head Office located within a country currently restricted by economic sanctions"
+                  }
+                ],
+                "RiskReason": "This vessel current ownership is based in a country/region restricted by sanctions."
+              },
+              {
+                "RelationshipType": "RO",
+                "CompanyId": "604452",
+                "CompanyName": "White Agate Marine SPC",
+                "StartDate": "2025-09-23T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Oman",
+                "HeadOfficeCountry": "OMN",
+                "SanctionInd": true,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskIndicators": [
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "This vessel current ownership is connected to another vessel which is linked to sanctions."
+              },
+              {
+                "RelationshipType": "IM",
+                "CompanyId": "623437",
+                "CompanyName": "Albatross Shipmanagement LLC-FZ",
+                "StartDate": "2025-03-27T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Dubai",
+                "HeadOfficeCountry": "ARE",
+                "SanctionInd": true,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskIndicators": [
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "This vessel current ownership is connected to another vessel which is linked to sanctions."
+              },
+              {
+                "RelationshipType": "TM",
+                "CompanyId": "623437",
+                "CompanyName": "Albatross Shipmanagement LLC-FZ",
+                "StartDate": "2025-03-27T00:00:00+00:00",
+                "EndDate": null,
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "",
+                "HeadOfficeTown": "Dubai",
+                "HeadOfficeCountry": "ARE",
+                "SanctionInd": true,
+                "Sanctions": [],
+                "ComplianceRiskType": {
+                  "Id": 5,
+                  "Description": "VesselOwnership"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskIndicators": [
+                  {
+                    "Id": 505,
+                    "Description": "Vessel has current ownership links with an entity that has sanctioned vessel within its fleet"
+                  }
+                ],
+                "RiskReason": "This vessel current ownership is connected to another vessel which is linked to sanctions."
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 6,
+              "Description": "VesselFlag"
+            },
+            "ComplianceRiskScore": "Medium",
+            "RiskIndicators": [
+              {
+                "Id": 607,
+                "Description": "VesselFlagUnknown"
+              }
+            ],
+            "Details": [
+              {
+                "Flag": "UNK",
+                "StartDate": "2025-05-01T00:00:00+00:00",
+                "EndDate": "2025-09-22T00:00:00+00:00",
+                "StartDateQualifier": "Before",
+                "EndDateQualifier": "Before",
+                "ComplianceRiskType": {
+                  "Id": 6,
+                  "Description": "VesselFlag"
+                },
+                "ComplianceRiskScore": "Medium",
+                "RiskIndicators": [
+                  {
+                    "Id": 607,
+                    "Description": "VesselFlagUnknown"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 7,
+              "Description": "VesselLoitering"
+            },
+            "ComplianceRiskScore": "Low",
+            "RiskIndicators": [],
+            "Details": []
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 8,
+              "Description": "VesselSanctions"
+            },
+            "ComplianceRiskScore": "High",
+            "RiskIndicators": [
+              {
+                "Id": 801,
+                "Description": "VesselSanctioned"
+              }
+            ],
+            "Details": [
+              {
+                "Details": [
+                  {
+                    "SanctionStartDate": "2024-12-17T00:00:00",
+                    "SanctionEndDate": null,
+                    "Source": "EU",
+                    "Program": "UKR"
+                  },
+                  {
+                    "SanctionStartDate": "2024-07-31T00:00:00",
+                    "SanctionEndDate": null,
+                    "Source": "HM Treasury",
+                    "Program": "The Russia (Sanctions) (EU Exit) Regulations 2019"
+                  },
+                  {
+                    "SanctionStartDate": "2025-12-03T10:50:54",
+                    "SanctionEndDate": null,
+                    "Source": "Australia",
+                    "Program": "Autonomous (Vessels)"
+                  },
+                  {
+                    "SanctionStartDate": "2025-02-21T00:00:00",
+                    "SanctionEndDate": null,
+                    "Source": "Canada",
+                    "Program": "Russia / Russie"
+                  },
+        
+                  {
+                    "SanctionStartDate": "2024-12-24T00:00:00",
+                    "SanctionEndDate": null,
+                    "Source": "Switzerland",
+                    "Program": "Situation in Ukraine"
+                  }
+                ],
+                "ComplianceRiskType": {
+                  "Id": 8,
+                  "Description": "VesselSanctions"
+                },
+                "ComplianceRiskScore": "High",
+                "RiskIndicators": [
+                  {
+                    "Id": 801,
+                    "Description": "VesselSanctioned"
+                  }
+                ],
+                "RiskReason": "Vessel sanctioned."
+              }
+            ]
+          },
+          {
+            "ComplianceRiskType": {
+              "Id": 9,
+              "Description": "VesselAisSpoofing"
+            },
+            "ComplianceRiskScore": "Low",
+            "RiskIndicators": [],
+            "Details": []
+          }
+        ],
+        "AisReceivedLastSixMonths": true,
+        "CallingsRecordedLastSixMonths": true,
+        "LiveAisGap": {
+          "GapStart": "2025-09-22T00:39:59",
+          "GapEnd": null,
+          "GapDurationDays": 336.6601408265347,
+          "EezAreaName": "Russian Exclusive economic Zone",
+          "ExtendedDetails": {
+            "PositionGapStart": {
+              "MessageTimestamp": "2025-09-22T00:39:59",
+              "Latitude": 46.53803166666667,
+              "Longitude": 142.97189666666668,
+              "Speed": 0,
+              "Heading": 222,
+              "Draught": 89,
+              "Eta": "2025-07-18T23:00:00",
+              "Cargo": 89,
+              "NavStatus": 1,
+              "NearestPlace": {
+                "Name": "Prigorodnoye",
+                "PlaceId": "110002",
+                "Unlocode": "RUPGN",
+                "Latitude": 46.5854130073842,
+                "Longitude": 142.914103630797,
+                "CountryCode": "RUS",
+                "CountryIso": "RUS",
+                "CountryName": "Russia",
+                "PortNotes": [
+                  {
+                    "type": "JWC",
+                    "category": "JWC Russia - JWLA-030"
+                  },
+                  {
+                    "type": "JWC",
+                    "category": "JWC Russia - JWLA-030"
+                  },
+                  {
+                    "type": "SANCTIONED",
+                    "category": "Australia "
+                  },
+                  {
+                    "type": "SANCTIONED",
+                    "category": "HM Treasury OFSI"
+                  },
+                  {
+                    "type": "SANCTIONED",
+                    "category": "Canada "
+                  },
+                  {
+                    "type": "SANCTIONED",
+                    "category": "EU"
+                  },
+                  {
+                    "type": "SANCTIONED",
+                    "category": "Switzerland"
+                  }
+                ]
+              }
+            },
+            "PositionGapEnd": null
+          },
+          "AisGapRating": "",
+          "RiskIndicators": null,
+          "NumberOfDaysUntilNow": 336.7
+        }
+      }
+    ]
+  },
+  "Errors": []
+}
